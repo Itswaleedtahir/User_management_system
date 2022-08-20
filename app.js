@@ -19,7 +19,7 @@
  const handlebars = exphbs.create ({extname: "hbs"});
  app.engine(".hbs",handlebars.engine);
  app.set("view.engine","hbs");
- //comment
+ //comment 2
 
 
  const routes = require("./server/routes/user");
